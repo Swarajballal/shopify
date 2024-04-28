@@ -1,0 +1,3 @@
+convert image from jpeg to wepb from photopea (https://www.photopea.com/)
+changing banner of collections: products --> collections --> banner img (alt text not needed)
+for sorting the collections you can manually sort by drag and drop or by any other parameter  

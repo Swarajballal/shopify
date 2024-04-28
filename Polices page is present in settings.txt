@@ -1,0 +1,8 @@
+Polices page is present in settings --> policies
+It consists of policies that are written order is returned or free return shipping, no restocking fee or no final sale items
+the conditions with all damage issues exceptions exchanges all are breifly defined and other countries policy regarding shipping/refund/exchanges etc
+
+It also consists of the terms and condition page etc can be done here.
+shopify also has its own template which we can use
+It also consists of the shipping policy / shipping policy etc
+privacy policy (if we are taking any sensitive private information from the user)

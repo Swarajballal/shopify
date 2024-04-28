@@ -1,0 +1,4 @@
+Delivery charges can be customized in shipping zones we can edit the shipping price either a pre decided one or you can change it based on order price or on product weight.
+we can add rate on price as well on minimum price certain price will be applicable.
+
+we can also apply restrictions on shipping addresses. all packaging related details are present in this section also apply wether it will be packed in boxes, satches or envelope

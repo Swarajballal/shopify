@@ -1,0 +1,8 @@
+Present in settings: Notifications.
+Notification section in settings tells you the emails/sms that are going to be sent to the customer order placed/ refund all templates are present in it we can also edit the html file to customize the mail according to our need it also consists of gift card section which when applied will eventually create discount on exsisting amount.
+related to any doubt/shippinig details notification/ customer change password or any other mail.
+Email marketing mails if the customer has subscribed to the notification or marketing mails
+returns mails.
+
+
+Staff notifications: Notification not only to the company but also the owner for example to let know about the incoming orders so company mail with some other mail or authority.  both orders placed and return mails 

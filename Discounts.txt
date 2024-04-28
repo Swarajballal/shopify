@@ -1,0 +1,23 @@
+Collections can't contain individual variants. If you add a product variant to a discounted collection, then the discount applies to every version of the product.
+If you create a discount with a start and end time, then the time is based on the time zone that you selected in your Shopify admin. For example, if your store’s time zone is Eastern Standard Time (EST) and you select a start date of November 26, then your discount starts at 12:00 a.m. EST on November 26.
+A discount with the maximum use of one per customer applies only to that specific discount. If you delete that discount and then add in a duplicate with the same maximum use restriction, then customers who used the previous discount can also use this new discount one time.
+
+e.g with parameters
+
+Summary
+shopflo_testing
+Expired            / currently active or not 
+Type and method    // four different methods amount on offer, number of items, buy x get y 
+Amount off order
+Code
+Details
+For Online Store and 1 sales channel   // online store channel or any other channel like facebook, google, instagram
+99% off entire order
+No minimum purchase requirement  // any purshase requirement any number or products
+All customers
+No usage limits  // one time use or unlimited 
+Can’t combine with other discounts  // combine with exsisting discounts if applicable
+Active Dec 18, 2023
+Performance
+1 used
+₹15.00 in total sales

@@ -1,0 +1,6 @@
+general settings --> payments in which we can select INR or any other currency acceptance
+Adding any third party payment provider
+Bogus gateway is for testing purpose and we can select any other third party payment gateway for international payment we use paypal
+Manual payment method cash on delivery and other options etc
+
+Payments could be automatic capture or manual, manual means if at small scale we have limited stock so if we are out of stock and customer purchases a order in manual we can keep that on hold.

@@ -1,0 +1,10 @@
+Present in settings --> languages
+
+This section is for internationalization
+First is the default language that will be displayed on the site
+Second will be other alternate languages that we need to add. it does need a translating app from shopify store .
+for eg frend the url will be www.url/fr fr for french with french language.
+Account default panel language.
+checkout page languages etc
+
+tracking script******* learn later

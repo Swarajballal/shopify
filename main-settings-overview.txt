@@ -1,0 +1,20 @@
+Orders placed by customers
+Profile or after login below Home --> Orders  --> name when buyed status of order delivery payment mode tags
+Products --> products present
+products --> collections
+products --> inventory --> shows the number of sku's present available unavailable completed on hand and committed
+
+Main settings --> customers
+has all customer details with name whether they are email subscribed or not location no of orders placed and amount spent.
+
+Main settings --> Analytics charts to see have a business overview
+Main settings --> Marketing section with online store sessions, conversion rate, average order value, total sales related data,
+marketing channels to see which channel is bringing more traffic and business, third party apps installed for marketing
+
+Main settings --> Marketing --> campaigns: Marketing campaigns include one or more marketing activities, such as content marketing or advertising. Marketing campaigns are usually directed at a specific promotion, because you can publish activities within a set timeframe. For example, you might run a Facebook ad to promote a sale on a product, or you might create a post on a social media platform to let your followers know about a new product. When you create a marketing activity in Shopify, you have the option to save it as a draft and publish it when it's ready, so that you can prepare your marketing activities in advance. For important events, such as Black Friday, you can group marketing activities together to work toward a specific campaign objective.
+
+Main settings --> Discounts: Is the coupon codes that we can generate 
+different types of discounts  --> Amount off on some number of products
+Buy X get Y, Amount off order, free shipping
+
+Online store --> preferences with meta information title description, social media links etc

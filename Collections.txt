@@ -1,0 +1,53 @@
+
+Collections: After you create a collection, it can be displayed on your online store as a webpage with a gallery of the products that are in the collection. Your customers can then click a product image on the collection page to visit a specific product's page. You can help customers find and view collections by adding links to the collections in a menu in your store's navigation.
+
+Active: the product details are complete and the product is ready to be sold. Draft: the product details need to be completed before it can be sold
+
+Types of Collections:
+1.) automated collections (Upto 60 conditions can be made): In automated collection you can add conditions such as product type/tag/price on which meeting the criteria the product will automatically added into that collection.
+For example a collection named workout clothes in which we can add condition such as product tag is equal to clothing then product with clothing tag will be included in that collection it is good for large scale business which regularly rotates the inventory.
+
+2.) manual collections: Manual collection in which we use browse function to manually add the product we want and it wont change untill we change that.(better for small selection of products or for one time flash sale or like create discount for certain types of products and group them) after creating the collection you need to link them.
+
+How to create a collection ?
+create collection:
+title: Veg items e.g
+description: Depends if your theme has it, it will show the description else it won't be visible (Adding description is better for SEO optimizations)
+If you want to keep the collection visible you must select online store in collection availability you can also add in which channel it should be available or not like google, facebook etc.
+If you add image representing the collection it will only be visible if it is present in the theme and if you add so do add alt text to the image using edit image alttext in the image edit menu.
+browse and add products in the collections.
+We can also sort the products according to which it will be displayed to user we can also sort manually or alphabetically.
+To add it in navigation click on update your menu or follow the below steps in 
+
+Purpose?
+1.) if the image doesn't load
+2.) Also used by assistive technology to describe and image to a customer who's visually impaired.
+3.) Alt text also boosts your SEO 
+
+Consideration for alt text ?
+1.) keeping it brief and descriptive
+2.) The maximum length is 512 characters (125 or less is recommended)
+
+SEO: By default SEO uses the title and description given in the collection but we can edit it.
+
+After creating collection you need to link it to your store navigation, you can only add it after it is published 
+How to do it ?
+Steps --> Go to Navigation in Online store --> navigation menu --> add menu item --> name and in link add the collection which you created
+After which the menu item will appear in the navigation menu with gallery of created collection
+you can drag and change the order in which menu should appear
+To create a drop down menu drag and drop it under another menu item to nest it
+When you are done hit save
+to preview click eye icon on the online store menu
+
+Menu Items: There are Top level menu items which depends on the type of menu item we choose like dropdown or etc a main menu item might have a dropdown with your collections 
+
+Schedule Online store availability: We can also schedule when the collection must be shown on the website time and date.
+
+
+Automated Collections:
+
+Browse to collections --> create collections --> Title and description choose automated collection in which we can add conditions either specific or all conditions. could be title,tags,price etc
+rest same as manual collections
+Scheduled collections wont be visible in navigation panel untill they are published. 
+
+	

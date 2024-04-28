@@ -1,0 +1,12 @@
+Metafields
+
+Metafields are a flexible way for your app to add and store additional information about a Shopify resource, such as a product, a collection, The additional information stored in metafields can be almost anything related to a resource. Some examples are specifications, size charts, downloadable documents, release dates, images, or part numbers.
+Merchants and other apps can retrieve and edit the data that's stored in metafields from the Shopify admin. You can also access metafields in themes using Liquid and through the Storefront API.
+
+A metafield includes the following parts:
+
+Namespace: A container for a group of metafields. Grouping metafields within a namespace prevents your metafields from conflicting with other metafields with the same key name.
+Key: The name for the metafield.
+Type: The type of data that the metafield stores.
+
+Value: The data to store in the metafield. The value is always stored as a string, regardless of the metafield's type.

@@ -1,0 +1,6 @@
+location settings
+We can 4 locations in free version
+so we can add multiple locations
+
+Full filment priority 
+which address should get the higher priority the one with higher priority will be showed in billing

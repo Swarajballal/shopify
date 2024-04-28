@@ -1,0 +1,6 @@
+/* Imp changes */
+collections: banner images
+products details
+product stock
+product gallery images 
+home page section changes

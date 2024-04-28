@@ -1,0 +1,3 @@
+Store details name, address, basic info etc.
+store currency, Time zones etc, Unit system with different metric
+Custom id formatting: we can all prefixes and suffixes to the order id
