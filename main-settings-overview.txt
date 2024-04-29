@@ -11,6 +11,8 @@ Main settings --> Analytics charts to see have a business overview
 Main settings --> Marketing section with online store sessions, conversion rate, average order value, total sales related data,
 marketing channels to see which channel is bringing more traffic and business, third party apps installed for marketing
 
+
+
 Main settings --> Marketing --> campaigns: Marketing campaigns include one or more marketing activities, such as content marketing or advertising. Marketing campaigns are usually directed at a specific promotion, because you can publish activities within a set timeframe. For example, you might run a Facebook ad to promote a sale on a product, or you might create a post on a social media platform to let your followers know about a new product. When you create a marketing activity in Shopify, you have the option to save it as a draft and publish it when it's ready, so that you can prepare your marketing activities in advance. For important events, such as Black Friday, you can group marketing activities together to work toward a specific campaign objective.
 
 Main settings --> Discounts: Is the coupon codes that we can generate 
