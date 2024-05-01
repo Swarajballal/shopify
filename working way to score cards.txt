@@ -1,0 +1,405 @@
+{% style %}
+    .way-to-score-list {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+  }
+  .way-to-score-list > * {
+    flex: 0 0 30.33%;
+  }
+  .way-to-score-block {
+      position: relative;
+      width: 100%;
+      height: 220px;
+  }
+  .way-to-score-front-card {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: #F2ECE2;
+      transition: opacity 0.3s ease;
+      z-index: 1;
+  }
+  .way-to-score-back-card {
+      position: absolute;
+          width: 100%;
+          height: 100%;
+          background-color: #F2ECE2;
+          opacity: 0;
+          transition: opacity 0.3s ease;
+          z-index: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+  }
+  .way-to-score-block:hover .way-to-score-front-card  {
+      opacity: 0;
+  }
+
+  .way-to-score-block:hover .way-to-score-back-card {
+      opacity: 1;
+      z-index:999;
+  }
+  .way-to-score-list .way-to-score-block .way-to-score-back-card .signup-div {
+    background-color: #e2f795;
+    padding: 10px 20px;
+    border-radius: 25px;
+    width: 60%;
+  }
+  .way-to-score-list .way-to-score-block .way-to-score-back-card .signup-div a {
+    text-decoration: none;
+    color: black;
+  }
+  .way-to-score-list .way-to-score-block {
+    text-align: center;
+    position: relative;
+  }
+  .way-to-score-list .way-to-score-block .img-container img {
+    max-height: 120px;
+    max-width: 120px;
+  }
+  .way-to-score-list .way-to-score-block .description-container {
+    margin-top: 10px;
+  }
+  .way-to-score-list .way-to-score-block .description-container h4 {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .way-to-score-list .way-to-score-block .description-container p {
+    color: rgb(132, 132, 132);
+    font-size: 18px;
+  }
+
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .way-to-score-list {
+      width: 100%;
+      gap: 10px;
+      padding: 0 10px;
+    }
+    .way-to-score-section .header-part h4 {
+      text-align: center;
+      padding-top: 10px;
+      font-weight: 400;
+      font-size: 20px;
+      margin-bottom: 0px;
+    }
+    .way-to-score-list .way-to-score-block .img-container img {
+      max-height: 60px;
+      max-width: 60px;
+    }
+    .way-to-score-list .way-to-score-block .way-to-score-back-card {
+      gap: 10px;
+    }
+    .way-to-score-list .way-to-score-block .description-container h4 {
+      color: rgba(0, 0, 0, 0.87);
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .way-to-score-list .way-to-score-block .description-container p {
+      color: rgb(132, 132, 132);
+      font-size: 14px;
+    }
+    .way-to-score-list .way-to-score-block .way-to-score-back-card .signup-div {
+      background-color: #e2f795;
+      padding: 5px 20px;
+      border-radius: 25px;
+      width: max-content;
+      padding-bottom: 8px;
+    }
+    .way-to-score-list .way-to-score-block .way-to-score-back-card .signup-div a {
+      text-decoration: none;
+      color: black;
+      font-size: 12px;
+    }
+    .way-to-score-list .way-to-score-block .way-to-score-back-card p {
+      text-decoration: none;
+      color: black;
+      font-size: 12px;
+    }
+    .way-to-score-block{height:225px;}
+    .way-to-score-list>* { flex: 0 0 32.33%;}
+  }
+  @media only screen and (max-width: 575px) {
+    .way-to-score-list {
+      width: 100%;
+      height: max-content;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 10px;
+      padding: 0 10px;
+    }
+    .way-to-score-section .header-part h4 {
+      text-align: center;
+      padding-top: 10px;
+      font-weight: 400;
+      font-size: 20px;
+      margin-bottom: 0px;
+    }
+    .way-to-score-list .way-to-score-block .img-container img {
+      max-height: 60px;
+      max-width: 60px;
+    }
+    .way-to-score-list .way-to-score-block .way-to-score-back-card {
+      gap: 10px;
+    }
+    .way-to-score-list .way-to-score-block .description-container h4 {
+      color: rgba(0, 0, 0, 0.87);
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .way-to-score-list .way-to-score-block .description-container p {
+      color: rgb(132, 132, 132);
+      font-size: 12px;
+    }
+    .way-to-score-list .way-to-score-block .way-to-score-back-card .signup-div {
+      background-color: #e2f795;
+      padding: 5px 20px 8px;
+      border-radius: 25px;
+      width: max-content;
+    }
+    .way-to-score-list .way-to-score-block .way-to-score-back-card .signup-div a {
+      text-decoration: none;
+      color: black;
+      font-size: 16px;
+    }
+    .way-to-score-list .way-to-score-block .way-to-score-back-card p {
+      text-decoration: none;
+      color: black;
+      font-size: 12px;
+    }
+      .way-to-score-block{height:140px;}
+    .way-to-score-list>* { flex: 0 0 48%;}
+  }
+  h2.waytoscrore-heading {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .faq.wrapper h3.accordion__heading {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+{% endstyle %}
+
+<div
+  class="customSection"
+  style="background-color: {{ section.settings.background_color }}; padding: {{ section.settings.section_padding }}px"
+>
+  {% if section.settings.title != blank %}
+    <h1
+      class="title {{ section.settings.heading_size }} {{ section.settings.heading_alignment }}"
+      style="color: {{ section.settings.text_color }}"
+    >
+      {{ section.settings.title }}
+    </h1>
+  {% endif %}
+
+  <div class="way-to-score-list">
+    {% for block in section.blocks %}
+      <!-- way to score block -->
+      <div class="way-to-score-block">
+        <!-- way to score front card -->
+        <div class="way-to-score-front-card">
+          <div class="img-container">
+            <img
+              src="{{ block.settings.point_image | img_url }}"
+              alt="{{ block.settings.point_image }}"
+              height="300"
+              width="400"
+            >
+          </div>
+          <div class="description-container">
+            <h4 class="{{ block.settings.image_title_alignment }}">{{ block.settings.point_title }}</h4>
+            <p class="{{ block.settings.image_points_alignment }}">{{ block.settings.point_value }} points</p>
+          </div>
+        </div>
+        <!-- way to score back card -->
+        <div class="way-to-score-back-card">
+          <div class="signup-div">
+            <a href="{{ section.settings.SignupUrl }}">Sign Up</a>
+          </div>
+          <p>Already a member? <a href="{{ section.settings.LoginUrl }}">Log in</a></p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.custom-liquid.name",
+  "tag": "section",
+  "class": "customSection",
+   "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "product_list",
+      "id": "product_list",
+      "label": "Products",
+      "limit": 12
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading"
+    },
+     {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:settings_schema.global.settings.text_alignment.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:settings_schema.global.settings.text_alignment.options__2.label"
+        },
+         {
+          "value": "right",
+          "label": "t:settings_schema.global.settings.text_alignment.options__3.label"
+        }
+      ],
+       "default": "left",
+        "label": "t:settings_schema.global.settings.text_alignment.label"
+    },
+      {
+        "type": "range",
+        "id": "section_padding",
+        "min": 0,
+        "max": 40,
+        "step": 2,
+        "unit": "px",
+        "label": "padding to section",
+        "default": 0
+      },
+     {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#121212"
+    },
+    {
+      "type": "url",
+      "id": "SignupUrl",
+      "label": "Sign up"
+    },
+    {
+      "type": "url",
+      "id": "LoginUrl",
+      "label": "Login"
+    }
+  ],
+
+  "blocks": [
+    {
+      "name": "custom-section-image",
+      "type": "customSectionImage",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "point_image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "point_title",
+          "label": "Image title"
+        },
+        {
+          "type": "text",
+          "id": "point_value",
+          "label": "Points Value"
+        },
+          {
+          "type": "select",
+          "id": "image_title_alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "t:settings_schema.global.settings.text_alignment.options__1.label"
+            },
+            {
+              "value": "center",
+              "label": "t:settings_schema.global.settings.text_alignment.options__2.label"
+            },
+             {
+              "value": "right",
+              "label": "t:settings_schema.global.settings.text_alignment.options__3.label"
+            }
+          ],
+           "default": "left",
+            "label": "Image title alignment"
+
+        },
+                  {
+          "type": "select",
+          "id": "image_points_alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "t:settings_schema.global.settings.text_alignment.options__1.label"
+            },
+            {
+              "value": "center",
+              "label": "t:settings_schema.global.settings.text_alignment.options__2.label"
+            },
+             {
+              "value": "right",
+              "label": "t:settings_schema.global.settings.text_alignment.options__3.label"
+            }
+          ],
+           "default": "left",
+            "label": "Image points alignment"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "custom-section",
+      "settings":
+        {
+          "title": "Default heading text"
+        },
+      "blocks": [
+        {
+          "type": "customSectionImage"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 11
+}
+{% endschema %}
